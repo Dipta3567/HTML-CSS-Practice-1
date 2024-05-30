@@ -123,16 +123,18 @@ a
 .service-card
 {
     width: 400px;
-    height: 250px;
+    height: 300px;
     border-radius: 7px;
     text-align: center;
     margin-top: 50px;
-    box-shadow: rgb(128, 128, 128)
+    box-shadow: rgb(128, 128, 128);
+    border: 2px solid black;
 }
 .service-img
 {
     width: auto;
-    margin-bottom: 15px;
+    margin: 15px;
+    padding: 10px;
 }
 .services
 {
