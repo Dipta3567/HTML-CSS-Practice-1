@@ -212,7 +212,7 @@ input::placeholder {
 }
 .details-card
 {
-    width: 300px;
+    width: 20%;
     border-radius: 7px;
     text-align: center;
 }
@@ -232,6 +232,7 @@ input::placeholder {
     display: flex;
     justify-content: center;
     gap: 20px;
+    width: auto;
 }
 .details-card-right
 {
@@ -248,5 +249,12 @@ input::placeholder {
     text-align: center;
     padding-top: 5%;
 }
-
+.details-center-card
+{
+    line-height: 1.8em;
+}
+.details-right-card
+{
+    padding-top: 10px;
+}
 
